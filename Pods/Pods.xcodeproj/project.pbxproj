@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08728935E5661ED91E0B654F93266585 /* DCPagerMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2E5DCE26C5309E7F6EFFE08D515098 /* DCPagerMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D49B6F25B5F0A1E19E745E5E03EED4B /* DCPagerProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 421EC17251167E4AF672842E0FAB66BF /* DCPagerProgressView.m */; };
+		0E129AC07807A84A656D68E7FFC9C217 /* DCPagerController.h in Headers */ = {isa = PBXBuildFile; fileRef = DC299B68397DDCC58017479B67AFC68C /* DCPagerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EAB09883BFE4D549551FA4C3C7FD3D8 /* CDDPagerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A20C79B1688B165CD33470B3911FE66 /* CDDPagerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23B76D0386FDB2631C81A171D9688857 /* DCPagerConsts.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE1CECE69A4C037414A046DEA983014 /* DCPagerConsts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23DD35DE4A98BFF5301080651CBCE375 /* DCPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6134082E77E4E73C4B575C0125C98C /* DCPagerController.m */; };
+		29A0C255B63B487951B156B595DE4AB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		51CA3C0EC6B1B8695F5566F851FD812C /* UIView+DCPagerFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DA8240799CF992C8528900C492D73F /* UIView+DCPagerFrame.m */; };
+		7D01FA8EDA3428AEDF6591910B6D820F /* CDDPagerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B55B086DAB6F5C21AC614C08579A97CB /* CDDPagerController-dummy.m */; };
+		891A65C19D323BFB67F8920A1FF8EDF6 /* Pods-WSQMall-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D39107553631638C80A68B9115D36FB6 /* Pods-WSQMall-dummy.m */; };
+		8FEA5BFDE0EC7734B6CBFF2851D51845 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		BB308BE8914B1C5F7CE2CDB6FAC0825E /* DCPagerConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = 8353945230978B10CFB2A1A6DBF6CBDE /* DCPagerConsts.m */; };
+		BB668D0A330494A2758EE9BD8A058DF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		C64EE530949CE642E80AAAE281E8F104 /* UIView+DCPagerFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = E2DEBA2F3E4EEDCF7101EEB4049EC5B7 /* UIView+DCPagerFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD449BD9A4837CC3AD3778EE30721847 /* DCPagerProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = C155E43217C51D1B55A7E3B2C3E5DCC9 /* DCPagerProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA4C4C3B7EC72A1652982BA50AAC02BA /* Pods-WSQMall-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95FE7F75E1120D09992E703B6BC3EAD5 /* Pods-WSQMall-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEC83B938C9D8755900801B786FEF651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D763131D8A38A54056D31110545B893;
+			remoteInfo = CDDPagerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A3ACECAD2CA400B92CCA17E93BB5AC4 /* Pods-WSQMall-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSQMall-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FE1CECE69A4C037414A046DEA983014 /* DCPagerConsts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCPagerConsts.h; path = "CDDPagerController/Expand(扩展)/Const(常量)/DCPagerConsts.h"; sourceTree = "<group>"; };
+		21F608A24CE7AE934764F27C2CE3B179 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C011F301DC0FD4E49991B5A17D12C4 /* CDDPagerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDDPagerController-prefix.pch"; sourceTree = "<group>"; };
+		2AC2436873937359DF5FF4F8868D6213 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B9158308B941E2F708301AB906D91F8 /* Pods-WSQMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSQMall.debug.xcconfig"; sourceTree = "<group>"; };
+		2C6134082E77E4E73C4B575C0125C98C /* DCPagerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCPagerController.m; path = CDDPagerController/Controller/DCPagerController.m; sourceTree = "<group>"; };
+		421EC17251167E4AF672842E0FAB66BF /* DCPagerProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCPagerProgressView.m; path = CDDPagerController/View/DCPagerProgressView.m; sourceTree = "<group>"; };
+		456391F233EB6B3135EF5A497C056B2B /* Pods_WSQMall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WSQMall.framework; path = "Pods-WSQMall.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A20C79B1688B165CD33470B3911FE66 /* CDDPagerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CDDPagerController-umbrella.h"; sourceTree = "<group>"; };
+		76DA8240799CF992C8528900C492D73F /* UIView+DCPagerFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DCPagerFrame.m"; path = "CDDPagerController/Expand(扩展)/Category(分类)/UIView+DCPagerFrame.m"; sourceTree = "<group>"; };
+		7FC06D5D87ECD22CF869D9127BB7EF81 /* CDDPagerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CDDPagerController.xcconfig; sourceTree = "<group>"; };
+		8353945230978B10CFB2A1A6DBF6CBDE /* DCPagerConsts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DCPagerConsts.m; path = "CDDPagerController/Expand(扩展)/Const(常量)/DCPagerConsts.m"; sourceTree = "<group>"; };
+		917815690D9826A361824A96244E8CE4 /* Pods-WSQMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSQMall.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95FE7F75E1120D09992E703B6BC3EAD5 /* Pods-WSQMall-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WSQMall-umbrella.h"; sourceTree = "<group>"; };
+		9F2E9CFEC39FF8FB88FECB53D5AD2D0F /* CDDPagerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CDDPagerController.framework; path = CDDPagerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55B086DAB6F5C21AC614C08579A97CB /* CDDPagerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CDDPagerController-dummy.m"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BC80C9F79966D1BEDE9E7C6C154056B7 /* Pods-WSQMall.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WSQMall.modulemap"; sourceTree = "<group>"; };
+		C155E43217C51D1B55A7E3B2C3E5DCC9 /* DCPagerProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCPagerProgressView.h; path = CDDPagerController/View/DCPagerProgressView.h; sourceTree = "<group>"; };
+		C3A6595B03B55D06F8A441DBD27DF93F /* Pods-WSQMall-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WSQMall-resources.sh"; sourceTree = "<group>"; };
+		CBC2264FE80B24514BE479D3C8DF703C /* Pods-WSQMall-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WSQMall-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D39107553631638C80A68B9115D36FB6 /* Pods-WSQMall-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WSQMall-dummy.m"; sourceTree = "<group>"; };
+		D5DA9B72BEC7011A3D6346BF496C3F58 /* CDDPagerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CDDPagerController.modulemap; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC299B68397DDCC58017479B67AFC68C /* DCPagerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCPagerController.h; path = CDDPagerController/Controller/DCPagerController.h; sourceTree = "<group>"; };
+		E2DEBA2F3E4EEDCF7101EEB4049EC5B7 /* UIView+DCPagerFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+DCPagerFrame.h"; path = "CDDPagerController/Expand(扩展)/Category(分类)/UIView+DCPagerFrame.h"; sourceTree = "<group>"; };
+		ED2E5DCE26C5309E7F6EFFE08D515098 /* DCPagerMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCPagerMacros.h; path = "CDDPagerController/Expand(扩展)/Macros(宏)/DCPagerMacros.h"; sourceTree = "<group>"; };
+		FEC17D43B84C2A3022531F0F0E91D548 /* Pods-WSQMall-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WSQMall-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0183788B62F559CFC0B758198FFB6ACC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB668D0A330494A2758EE9BD8A058DF8 /* Foundation.framework in Frameworks */,
+				29A0C255B63B487951B156B595DE4AB6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78AA7CBE9041582F3A342D91A53A2F34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEA5BFDE0EC7734B6CBFF2851D51845 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		251C836445A93CC576EC9D917C876163 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFDEA46C2B7D663ACB0485B749B424CE /* Pods-WSQMall */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		373B4FE0E4497980641D4E050DB8F04D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F2E9CFEC39FF8FB88FECB53D5AD2D0F /* CDDPagerController.framework */,
+				456391F233EB6B3135EF5A497C056B2B /* Pods_WSQMall.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F165387244705FE58F9DB51E3D5DB9A /* CDDPagerController */ = {
+			isa = PBXGroup;
+			children = (
+				1FE1CECE69A4C037414A046DEA983014 /* DCPagerConsts.h */,
+				8353945230978B10CFB2A1A6DBF6CBDE /* DCPagerConsts.m */,
+				DC299B68397DDCC58017479B67AFC68C /* DCPagerController.h */,
+				2C6134082E77E4E73C4B575C0125C98C /* DCPagerController.m */,
+				ED2E5DCE26C5309E7F6EFFE08D515098 /* DCPagerMacros.h */,
+				C155E43217C51D1B55A7E3B2C3E5DCC9 /* DCPagerProgressView.h */,
+				421EC17251167E4AF672842E0FAB66BF /* DCPagerProgressView.m */,
+				E2DEBA2F3E4EEDCF7101EEB4049EC5B7 /* UIView+DCPagerFrame.h */,
+				76DA8240799CF992C8528900C492D73F /* UIView+DCPagerFrame.m */,
+				759567864BD7851B75A0FC47369D7437 /* Support Files */,
+			);
+			name = CDDPagerController;
+			path = CDDPagerController;
+			sourceTree = "<group>";
+		};
+		7518FEED346DB61F734F9855D0748147 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F165387244705FE58F9DB51E3D5DB9A /* CDDPagerController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		759567864BD7851B75A0FC47369D7437 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5DA9B72BEC7011A3D6346BF496C3F58 /* CDDPagerController.modulemap */,
+				7FC06D5D87ECD22CF869D9127BB7EF81 /* CDDPagerController.xcconfig */,
+				B55B086DAB6F5C21AC614C08579A97CB /* CDDPagerController-dummy.m */,
+				22C011F301DC0FD4E49991B5A17D12C4 /* CDDPagerController-prefix.pch */,
+				5A20C79B1688B165CD33470B3911FE66 /* CDDPagerController-umbrella.h */,
+				21F608A24CE7AE934764F27C2CE3B179 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CDDPagerController";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				7518FEED346DB61F734F9855D0748147 /* Pods */,
+				373B4FE0E4497980641D4E050DB8F04D /* Products */,
+				251C836445A93CC576EC9D917C876163 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DFDEA46C2B7D663ACB0485B749B424CE /* Pods-WSQMall */ = {
+			isa = PBXGroup;
+			children = (
+				2AC2436873937359DF5FF4F8868D6213 /* Info.plist */,
+				BC80C9F79966D1BEDE9E7C6C154056B7 /* Pods-WSQMall.modulemap */,
+				CBC2264FE80B24514BE479D3C8DF703C /* Pods-WSQMall-acknowledgements.markdown */,
+				0A3ACECAD2CA400B92CCA17E93BB5AC4 /* Pods-WSQMall-acknowledgements.plist */,
+				D39107553631638C80A68B9115D36FB6 /* Pods-WSQMall-dummy.m */,
+				FEC17D43B84C2A3022531F0F0E91D548 /* Pods-WSQMall-frameworks.sh */,
+				C3A6595B03B55D06F8A441DBD27DF93F /* Pods-WSQMall-resources.sh */,
+				95FE7F75E1120D09992E703B6BC3EAD5 /* Pods-WSQMall-umbrella.h */,
+				2B9158308B941E2F708301AB906D91F8 /* Pods-WSQMall.debug.xcconfig */,
+				917815690D9826A361824A96244E8CE4 /* Pods-WSQMall.release.xcconfig */,
+			);
+			name = "Pods-WSQMall";
+			path = "Target Support Files/Pods-WSQMall";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		181D968402979063368F1CA6D4781A6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAB09883BFE4D549551FA4C3C7FD3D8 /* CDDPagerController-umbrella.h in Headers */,
+				23B76D0386FDB2631C81A171D9688857 /* DCPagerConsts.h in Headers */,
+				0E129AC07807A84A656D68E7FFC9C217 /* DCPagerController.h in Headers */,
+				08728935E5661ED91E0B654F93266585 /* DCPagerMacros.h in Headers */,
+				CD449BD9A4837CC3AD3778EE30721847 /* DCPagerProgressView.h in Headers */,
+				C64EE530949CE642E80AAAE281E8F104 /* UIView+DCPagerFrame.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA66CE60FF35462514518534D3B03FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4C4C3B7EC72A1652982BA50AAC02BA /* Pods-WSQMall-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		56461BCCFF14890574DE1E7DB5B2CED3 /* Pods-WSQMall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9998DA924289568FD4938B094AC419AB /* Build configuration list for PBXNativeTarget "Pods-WSQMall" */;
+			buildPhases = (
+				0CD4CCEA9D7A91E071D574FDA561ADD8 /* Sources */,
+				78AA7CBE9041582F3A342D91A53A2F34 /* Frameworks */,
+				ECA66CE60FF35462514518534D3B03FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90EA30F2C2EF41E29D6ABDD5C5CB4E48 /* PBXTargetDependency */,
+			);
+			name = "Pods-WSQMall";
+			productName = "Pods-WSQMall";
+			productReference = 456391F233EB6B3135EF5A497C056B2B /* Pods_WSQMall.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D763131D8A38A54056D31110545B893 /* CDDPagerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5CE3778FBABC8E8DA42EF7914353A9 /* Build configuration list for PBXNativeTarget "CDDPagerController" */;
+			buildPhases = (
+				62557E08B6658AC009FCF7ED386B1136 /* Sources */,
+				0183788B62F559CFC0B758198FFB6ACC /* Frameworks */,
+				181D968402979063368F1CA6D4781A6B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDDPagerController;
+			productName = CDDPagerController;
+			productReference = 9F2E9CFEC39FF8FB88FECB53D5AD2D0F /* CDDPagerController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 373B4FE0E4497980641D4E050DB8F04D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D763131D8A38A54056D31110545B893 /* CDDPagerController */,
+				56461BCCFF14890574DE1E7DB5B2CED3 /* Pods-WSQMall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CD4CCEA9D7A91E071D574FDA561ADD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891A65C19D323BFB67F8920A1FF8EDF6 /* Pods-WSQMall-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62557E08B6658AC009FCF7ED386B1136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D01FA8EDA3428AEDF6591910B6D820F /* CDDPagerController-dummy.m in Sources */,
+				BB308BE8914B1C5F7CE2CDB6FAC0825E /* DCPagerConsts.m in Sources */,
+				23DD35DE4A98BFF5301080651CBCE375 /* DCPagerController.m in Sources */,
+				0D49B6F25B5F0A1E19E745E5E03EED4B /* DCPagerProgressView.m in Sources */,
+				51CA3C0EC6B1B8695F5566F851FD812C /* UIView+DCPagerFrame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90EA30F2C2EF41E29D6ABDD5C5CB4E48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CDDPagerController;
+			target = 7D763131D8A38A54056D31110545B893 /* CDDPagerController */;
+			targetProxy = BEC83B938C9D8755900801B786FEF651 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		446F98BEE8826E9A99CCA4A644E885DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FC06D5D87ECD22CF869D9127BB7EF81 /* CDDPagerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CDDPagerController/CDDPagerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDDPagerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CDDPagerController/CDDPagerController.modulemap";
+				PRODUCT_NAME = CDDPagerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		801FE592115B2354CFBB5F1369A68C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FC06D5D87ECD22CF869D9127BB7EF81 /* CDDPagerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CDDPagerController/CDDPagerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CDDPagerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CDDPagerController/CDDPagerController.modulemap";
+				PRODUCT_NAME = CDDPagerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		949D021C69B433DF5AC43DE52F119D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B9158308B941E2F708301AB906D91F8 /* Pods-WSQMall.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WSQMall/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WSQMall/Pods-WSQMall.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WSQMall;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDC90F30F2734B9172D8B53B6E8E28A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 917815690D9826A361824A96244E8CE4 /* Pods-WSQMall.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WSQMall/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WSQMall/Pods-WSQMall.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WSQMall;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9998DA924289568FD4938B094AC419AB /* Build configuration list for PBXNativeTarget "Pods-WSQMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				949D021C69B433DF5AC43DE52F119D0C /* Debug */,
+				DDC90F30F2734B9172D8B53B6E8E28A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5CE3778FBABC8E8DA42EF7914353A9 /* Build configuration list for PBXNativeTarget "CDDPagerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801FE592115B2354CFBB5F1369A68C58 /* Debug */,
+				446F98BEE8826E9A99CCA4A644E885DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

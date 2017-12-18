@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		101DBC6C1FE68AA500B05248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101DBC6B1FE68AA500B05248 /* AppDelegate.swift */; };
+		101DBC711FE68AA500B05248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101DBC6F1FE68AA500B05248 /* Main.storyboard */; };
+		101DBC731FE68AA500B05248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 101DBC721FE68AA500B05248 /* Assets.xcassets */; };
+		101DBC761FE68AA500B05248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101DBC741FE68AA500B05248 /* LaunchScreen.storyboard */; };
+		101DBC891FE68F6400B05248 /* WSQTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101DBC881FE68F6400B05248 /* WSQTabbarController.swift */; };
+		101DBC8B1FE6905100B05248 /* WSQBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101DBC8A1FE6905100B05248 /* WSQBaseNavigationController.swift */; };
+		101DBCAA1FE6928100B05248 /* WSQLoginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101DBCA91FE6928100B05248 /* WSQLoginTableViewController.swift */; };
+		101DBCAC1FE692F800B05248 /* WSQBaseSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101DBCAB1FE692F800B05248 /* WSQBaseSetViewController.swift */; };
+		101DBCAE1FE6933D00B05248 /* WSQBeautyShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101DBCAD1FE6933D00B05248 /* WSQBeautyShopViewController.swift */; };
+		101DBCB11FE698FC00B05248 /* WSQMediaListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101DBCB01FE698FC00B05248 /* WSQMediaListViewController.swift */; };
+		101DBCB61FE69DD000B05248 /* WSQHandPickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101DBCB51FE69DD000B05248 /* WSQHandPickViewController.swift */; };
+		101DBCB91FE69FDB00B05248 /* cz_UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101DBCB81FE69FDB00B05248 /* cz_UIColor.swift */; };
+		101DBCBB1FE6BB7F00B05248 /* WSQProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101DBCBA1FE6BB7F00B05248 /* WSQProfileViewController.swift */; };
+		101DBCBE1FE6BF0400B05248 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101DBCBD1FE6BF0400B05248 /* Bundle+Extensions.swift */; };
+		2715964174DA711F51DBF21B /* Pods_WSQMall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5F943962CD880414FD244B /* Pods_WSQMall.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		101DBC681FE68AA500B05248 /* WSQMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSQMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		101DBC6B1FE68AA500B05248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		101DBC701FE68AA500B05248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		101DBC721FE68AA500B05248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		101DBC751FE68AA500B05248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		101DBC771FE68AA500B05248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		101DBC881FE68F6400B05248 /* WSQTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSQTabbarController.swift; sourceTree = "<group>"; };
+		101DBC8A1FE6905100B05248 /* WSQBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSQBaseNavigationController.swift; sourceTree = "<group>"; };
+		101DBCA91FE6928100B05248 /* WSQLoginTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSQLoginTableViewController.swift; sourceTree = "<group>"; };
+		101DBCAB1FE692F800B05248 /* WSQBaseSetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSQBaseSetViewController.swift; sourceTree = "<group>"; };
+		101DBCAD1FE6933D00B05248 /* WSQBeautyShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSQBeautyShopViewController.swift; sourceTree = "<group>"; };
+		101DBCB01FE698FC00B05248 /* WSQMediaListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSQMediaListViewController.swift; sourceTree = "<group>"; };
+		101DBCB41FE69AF200B05248 /* WSQMall-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WSQMall-Bridging-Header.h"; sourceTree = "<group>"; };
+		101DBCB51FE69DD000B05248 /* WSQHandPickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSQHandPickViewController.swift; sourceTree = "<group>"; };
+		101DBCB81FE69FDB00B05248 /* cz_UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cz_UIColor.swift; sourceTree = "<group>"; };
+		101DBCBA1FE6BB7F00B05248 /* WSQProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSQProfileViewController.swift; sourceTree = "<group>"; };
+		101DBCBD1FE6BF0400B05248 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		83ADA868579B866D60483F7C /* Pods-WSQMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSQMall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSQMall/Pods-WSQMall.debug.xcconfig"; sourceTree = "<group>"; };
+		8F58C4D676588584D6559C73 /* Pods-WSQMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSQMall.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSQMall/Pods-WSQMall.release.xcconfig"; sourceTree = "<group>"; };
+		EA5F943962CD880414FD244B /* Pods_WSQMall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSQMall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		101DBC651FE68AA500B05248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2715964174DA711F51DBF21B /* Pods_WSQMall.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		101DBC5F1FE68AA500B05248 = {
+			isa = PBXGroup;
+			children = (
+				101DBC6A1FE68AA500B05248 /* WSQMall */,
+				101DBC691FE68AA500B05248 /* Products */,
+				D5665BD4C2FEFB45831057F9 /* Pods */,
+				401C13A5E38E33F465931676 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		101DBC691FE68AA500B05248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				101DBC681FE68AA500B05248 /* WSQMall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		101DBC6A1FE68AA500B05248 /* WSQMall */ = {
+			isa = PBXGroup;
+			children = (
+				101DBC871FE68E7B00B05248 /* Classes */,
+				101DBC7E1FE68AE000B05248 /* SupportingFiles */,
+			);
+			path = WSQMall;
+			sourceTree = "<group>";
+		};
+		101DBC7E1FE68AE000B05248 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				101DBC6B1FE68AA500B05248 /* AppDelegate.swift */,
+				101DBC6F1FE68AA500B05248 /* Main.storyboard */,
+				101DBC721FE68AA500B05248 /* Assets.xcassets */,
+				101DBC741FE68AA500B05248 /* LaunchScreen.storyboard */,
+				101DBC771FE68AA500B05248 /* Info.plist */,
+				101DBCB41FE69AF200B05248 /* WSQMall-Bridging-Header.h */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		101DBC7F1FE68D3D00B05248 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				101DBC851FE68D7400B05248 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		101DBC801FE68D4800B05248 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				101DBCA51FE6923B00B05248 /* Main */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		101DBC851FE68D7400B05248 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				101DBC881FE68F6400B05248 /* WSQTabbarController.swift */,
+				101DBC8A1FE6905100B05248 /* WSQBaseNavigationController.swift */,
+				101DBCAB1FE692F800B05248 /* WSQBaseSetViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		101DBC861FE68E0E00B05248 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		101DBC871FE68E7B00B05248 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				101DBC8F1FE6915300B05248 /* MediaList(美媒榜) */,
+				101DBC8E1FE6914000B05248 /* BeautyShop(美店) */,
+				101DBC8D1FE6912E00B05248 /* Login(登录) */,
+				101DBC8C1FE6911C00B05248 /* Profile(个人中心) */,
+				101DBC801FE68D4800B05248 /* Home(首页) */,
+				101DBC7F1FE68D3D00B05248 /* Main */,
+				101DBCBC1FE6BDDB00B05248 /* Tools */,
+				101DBC861FE68E0E00B05248 /* Resource */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		101DBC8C1FE6911C00B05248 /* Profile(个人中心) */ = {
+			isa = PBXGroup;
+			children = (
+				101DBCA11FE6922E00B05248 /* Main */,
+			);
+			path = "Profile(个人中心)";
+			sourceTree = "<group>";
+		};
+		101DBC8D1FE6912E00B05248 /* Login(登录) */ = {
+			isa = PBXGroup;
+			children = (
+				101DBC9D1FE6922200B05248 /* Main */,
+			);
+			path = "Login(登录)";
+			sourceTree = "<group>";
+		};
+		101DBC8E1FE6914000B05248 /* BeautyShop(美店) */ = {
+			isa = PBXGroup;
+			children = (
+				101DBC951FE691D700B05248 /* Main */,
+			);
+			path = "BeautyShop(美店)";
+			sourceTree = "<group>";
+		};
+		101DBC8F1FE6915300B05248 /* MediaList(美媒榜) */ = {
+			isa = PBXGroup;
+			children = (
+				101DBC911FE6918F00B05248 /* Main */,
+			);
+			path = "MediaList(美媒榜)";
+			sourceTree = "<group>";
+		};
+		101DBC911FE6918F00B05248 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				101DBC941FE691AA00B05248 /* View */,
+				101DBC931FE6919D00B05248 /* Model */,
+				101DBC921FE6919500B05248 /* ViewController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		101DBC921FE6919500B05248 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				101DBCB01FE698FC00B05248 /* WSQMediaListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		101DBC931FE6919D00B05248 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		101DBC941FE691AA00B05248 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		101DBC951FE691D700B05248 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				101DBC961FE691D700B05248 /* Model */,
+				101DBC971FE691D700B05248 /* View */,
+				101DBC981FE691D700B05248 /* ViewController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		101DBC961FE691D700B05248 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		101DBC971FE691D700B05248 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		101DBC981FE691D700B05248 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				101DBCAD1FE6933D00B05248 /* WSQBeautyShopViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		101DBC9D1FE6922200B05248 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				101DBC9E1FE6922200B05248 /* Model */,
+				101DBC9F1FE6922200B05248 /* View */,
+				101DBCA01FE6922200B05248 /* ViewController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		101DBC9E1FE6922200B05248 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		101DBC9F1FE6922200B05248 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		101DBCA01FE6922200B05248 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				101DBCA91FE6928100B05248 /* WSQLoginTableViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		101DBCA11FE6922E00B05248 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				101DBCA21FE6922E00B05248 /* Model */,
+				101DBCA31FE6922E00B05248 /* View */,
+				101DBCA41FE6922E00B05248 /* ViewController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		101DBCA21FE6922E00B05248 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		101DBCA31FE6922E00B05248 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		101DBCA41FE6922E00B05248 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				101DBCBA1FE6BB7F00B05248 /* WSQProfileViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		101DBCA51FE6923B00B05248 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				101DBCA61FE6923B00B05248 /* Model */,
+				101DBCA71FE6923B00B05248 /* View */,
+				101DBCA81FE6923B00B05248 /* ViewController */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		101DBCA61FE6923B00B05248 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		101DBCA71FE6923B00B05248 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		101DBCA81FE6923B00B05248 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				101DBCB51FE69DD000B05248 /* WSQHandPickViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		101DBCB71FE69FB700B05248 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				101DBCB81FE69FDB00B05248 /* cz_UIColor.swift */,
+				101DBCBD1FE6BF0400B05248 /* Bundle+Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		101DBCBC1FE6BDDB00B05248 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				101DBCB71FE69FB700B05248 /* Extension */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		401C13A5E38E33F465931676 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA5F943962CD880414FD244B /* Pods_WSQMall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5665BD4C2FEFB45831057F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83ADA868579B866D60483F7C /* Pods-WSQMall.debug.xcconfig */,
+				8F58C4D676588584D6559C73 /* Pods-WSQMall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		101DBC671FE68AA500B05248 /* WSQMall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 101DBC7A1FE68AA500B05248 /* Build configuration list for PBXNativeTarget "WSQMall" */;
+			buildPhases = (
+				0EED6E4235977A668FD93CCF /* [CP] Check Pods Manifest.lock */,
+				101DBC641FE68AA500B05248 /* Sources */,
+				101DBC651FE68AA500B05248 /* Frameworks */,
+				101DBC661FE68AA500B05248 /* Resources */,
+				30E487EEB05926A067FC8CE1 /* [CP] Embed Pods Frameworks */,
+				EF714BC1E3F6DBB7C4FBAF84 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSQMall;
+			productName = WSQMall;
+			productReference = 101DBC681FE68AA500B05248 /* WSQMall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		101DBC601FE68AA500B05248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WSQ;
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = John;
+				TargetAttributes = {
+					101DBC671FE68AA500B05248 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 101DBC631FE68AA500B05248 /* Build configuration list for PBXProject "WSQMall" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 101DBC5F1FE68AA500B05248;
+			productRefGroup = 101DBC691FE68AA500B05248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				101DBC671FE68AA500B05248 /* WSQMall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		101DBC661FE68AA500B05248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101DBC761FE68AA500B05248 /* LaunchScreen.storyboard in Resources */,
+				101DBC731FE68AA500B05248 /* Assets.xcassets in Resources */,
+				101DBC711FE68AA500B05248 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EED6E4235977A668FD93CCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WSQMall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30E487EEB05926A067FC8CE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WSQMall/Pods-WSQMall-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CDDPagerController/CDDPagerController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CDDPagerController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSQMall/Pods-WSQMall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF714BC1E3F6DBB7C4FBAF84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSQMall/Pods-WSQMall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		101DBC641FE68AA500B05248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101DBCB11FE698FC00B05248 /* WSQMediaListViewController.swift in Sources */,
+				101DBCAC1FE692F800B05248 /* WSQBaseSetViewController.swift in Sources */,
+				101DBCBE1FE6BF0400B05248 /* Bundle+Extensions.swift in Sources */,
+				101DBC6C1FE68AA500B05248 /* AppDelegate.swift in Sources */,
+				101DBCAE1FE6933D00B05248 /* WSQBeautyShopViewController.swift in Sources */,
+				101DBCBB1FE6BB7F00B05248 /* WSQProfileViewController.swift in Sources */,
+				101DBCAA1FE6928100B05248 /* WSQLoginTableViewController.swift in Sources */,
+				101DBC8B1FE6905100B05248 /* WSQBaseNavigationController.swift in Sources */,
+				101DBCB61FE69DD000B05248 /* WSQHandPickViewController.swift in Sources */,
+				101DBC891FE68F6400B05248 /* WSQTabbarController.swift in Sources */,
+				101DBCB91FE69FDB00B05248 /* cz_UIColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		101DBC6F1FE68AA500B05248 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				101DBC701FE68AA500B05248 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		101DBC741FE68AA500B05248 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				101DBC751FE68AA500B05248 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		101DBC781FE68AA500B05248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		101DBC791FE68AA500B05248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		101DBC7B1FE68AA500B05248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83ADA868579B866D60483F7C /* Pods-WSQMall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FR54J7UM2Z;
+				INFOPLIST_FILE = "$(SRCROOT)/WSQMall/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsq.mall.WSQMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WSQMall/SupportingFiles/WSQMall-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		101DBC7C1FE68AA500B05248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F58C4D676588584D6559C73 /* Pods-WSQMall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FR54J7UM2Z;
+				INFOPLIST_FILE = "$(SRCROOT)/WSQMall/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wsq.mall.WSQMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WSQMall/SupportingFiles/WSQMall-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		101DBC631FE68AA500B05248 /* Build configuration list for PBXProject "WSQMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				101DBC781FE68AA500B05248 /* Debug */,
+				101DBC791FE68AA500B05248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		101DBC7A1FE68AA500B05248 /* Build configuration list for PBXNativeTarget "WSQMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				101DBC7B1FE68AA500B05248 /* Debug */,
+				101DBC7C1FE68AA500B05248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 101DBC601FE68AA500B05248 /* Project object */;
+}
