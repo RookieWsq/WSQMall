@@ -14,13 +14,14 @@ class WSQHandPickViewController: WSQBaseSetViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Next", style:.plain, target: self, action: #selector(push))
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @objc func push()
+    {
+        let vc = WSQBaseSetViewController()
+        vc.view.backgroundColor = .cz_random()
+        navigationController?.pushViewController(vc, animated: true)
     }
-    
 
     /*
     // MARK: - Navigation

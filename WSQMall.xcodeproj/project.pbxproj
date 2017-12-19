@@ -21,6 +21,8 @@
 		101DBCB91FE69FDB00B05248 /* cz_UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101DBCB81FE69FDB00B05248 /* cz_UIColor.swift */; };
 		101DBCBB1FE6BB7F00B05248 /* WSQProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101DBCBA1FE6BB7F00B05248 /* WSQProfileViewController.swift */; };
 		101DBCBE1FE6BF0400B05248 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101DBCBD1FE6BF0400B05248 /* Bundle+Extensions.swift */; };
+		10C90F591FE8045200C1DD51 /* WSQBaseTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C90F581FE8045200C1DD51 /* WSQBaseTabBar.swift */; };
+		10FA54271FE94323001CC5F6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FA54261FE94323001CC5F6 /* Constant.swift */; };
 		2715964174DA711F51DBF21B /* Pods_WSQMall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5F943962CD880414FD244B /* Pods_WSQMall.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +44,8 @@
 		101DBCB81FE69FDB00B05248 /* cz_UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cz_UIColor.swift; sourceTree = "<group>"; };
 		101DBCBA1FE6BB7F00B05248 /* WSQProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSQProfileViewController.swift; sourceTree = "<group>"; };
 		101DBCBD1FE6BF0400B05248 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		10C90F581FE8045200C1DD51 /* WSQBaseTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSQBaseTabBar.swift; sourceTree = "<group>"; };
+		10FA54261FE94323001CC5F6 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		83ADA868579B866D60483F7C /* Pods-WSQMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSQMall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSQMall/Pods-WSQMall.debug.xcconfig"; sourceTree = "<group>"; };
 		8F58C4D676588584D6559C73 /* Pods-WSQMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSQMall.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSQMall/Pods-WSQMall.release.xcconfig"; sourceTree = "<group>"; };
 		EA5F943962CD880414FD244B /* Pods_WSQMall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSQMall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +106,7 @@
 		101DBC7F1FE68D3D00B05248 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				10C90F571FE8042B00C1DD51 /* View */,
 				101DBC851FE68D7400B05248 /* Controller */,
 			);
 			path = Main;
@@ -143,6 +148,7 @@
 				101DBC7F1FE68D3D00B05248 /* Main */,
 				101DBCBC1FE6BDDB00B05248 /* Tools */,
 				101DBC861FE68E0E00B05248 /* Resource */,
+				10FA54251FE942ED001CC5F6 /* Helper */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -356,6 +362,22 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		10C90F571FE8042B00C1DD51 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				10C90F581FE8045200C1DD51 /* WSQBaseTabBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		10FA54251FE942ED001CC5F6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				10FA54261FE94323001CC5F6 /* Constant.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		401C13A5E38E33F465931676 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -507,10 +529,12 @@
 				101DBCAC1FE692F800B05248 /* WSQBaseSetViewController.swift in Sources */,
 				101DBCBE1FE6BF0400B05248 /* Bundle+Extensions.swift in Sources */,
 				101DBC6C1FE68AA500B05248 /* AppDelegate.swift in Sources */,
+				10C90F591FE8045200C1DD51 /* WSQBaseTabBar.swift in Sources */,
 				101DBCAE1FE6933D00B05248 /* WSQBeautyShopViewController.swift in Sources */,
 				101DBCBB1FE6BB7F00B05248 /* WSQProfileViewController.swift in Sources */,
 				101DBCAA1FE6928100B05248 /* WSQLoginTableViewController.swift in Sources */,
 				101DBC8B1FE6905100B05248 /* WSQBaseNavigationController.swift in Sources */,
+				10FA54271FE94323001CC5F6 /* Constant.swift in Sources */,
 				101DBCB61FE69DD000B05248 /* WSQHandPickViewController.swift in Sources */,
 				101DBC891FE68F6400B05248 /* WSQTabbarController.swift in Sources */,
 				101DBCB91FE69FDB00B05248 /* cz_UIColor.swift in Sources */,
@@ -654,6 +678,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FR54J7UM2Z;
 				INFOPLIST_FILE = "$(SRCROOT)/WSQMall/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wsq.mall.WSQMall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -671,6 +696,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FR54J7UM2Z;
 				INFOPLIST_FILE = "$(SRCROOT)/WSQMall/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wsq.mall.WSQMall;
 				PRODUCT_NAME = "$(TARGET_NAME)";

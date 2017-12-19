@@ -14,15 +14,21 @@ class WSQTabbarController: UITabBarController,UITabBarControllerDelegate {
         super.viewDidLoad()
         self.delegate = self
         setupUI()
-        // Do any additional setup after loading the view.
+        
     }
     
 }
 // MARK: - SetupUI
 extension WSQTabbarController{
     func setupUI(){
+        setupTabBar()
         addchildVC()
-        
+    }
+    func setupTabBar()
+    {
+        let tabBar = WSQBaseTabBar()
+        tabBar.backgroundColor = .white
+        setValue(tabBar, forKey: "tabBar")
     }
     func addchildVC(){
         let childVCArray = [
@@ -114,5 +120,15 @@ extension WSQTabbarController
         animation.calculationMode = kCAAnimationCubic
         
         view.layer.add(animation, forKey: nil)
+    }
+    // 设置 tabbarController 的视图和其子视图的旋转方向
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask
+    {
+        return .portrait
+    }
+    // 你跳转（present）到这个新控制器时，按照什么方向初始化控制器
+    override var preferredInterfaceOrientationForPresentation: UIInterfaceOrientation
+    {
+        return .portrait
     }
 }
