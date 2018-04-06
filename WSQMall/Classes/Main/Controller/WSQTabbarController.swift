@@ -54,7 +54,6 @@ extension WSQTabbarController{
             ]
         ]
         for dic in childVCArray {
-            print(dic)
             let className = NSClassFromString(Bundle.main.nameSpace+"."+dic["ClassName"]!) as! UIViewController.Type
             let vc = className.init()
             vc.view.backgroundColor = UIColor.cz_random()
@@ -76,11 +75,31 @@ extension WSQTabbarController{
 // MARK: - TabbarControllerDelegate
 extension WSQTabbarController
 {
+    // 添加帧动画
     func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
         // 点击的同时添加帧动画
-            tabbarButtonClick()
+        tabbarButtonClick()
         
+        MallObjManager.save("2", byFileName: "2")
     }
+    
+    // 拦截尚未登录前点击“我的”页面
+    func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
+        
+        let isLogin = (MallObjManager.readUserData("isLogin") as? Bool) ?? false
+        
+        if !isLogin && ((viewController as! UINavigationController).childViewControllers.first?.isKind(of: WSQProfileViewController.self)) ?? false
+        {
+            let loginVC = WSQLoginTableViewController()
+            let nav = UINavigationController(rootViewController: loginVC)
+            self.present(nav, animated: true, completion: nil)
+            
+            return false
+        }
+        
+        return true
+    }
+    
     
     // FIXME: 重构一下和这个方法，这个方法循环嵌套过多
     // 获取到被点击的 tabbarButton
@@ -121,6 +140,7 @@ extension WSQTabbarController
         
         view.layer.add(animation, forKey: nil)
     }
+    
     // 设置 tabbarController 的视图和其子视图的旋转方向
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask
     {

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		101609B820710C820050B851 /* MallObjManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101609B720710C820050B851 /* MallObjManager.swift */; };
+		101609BA20713FE70050B851 /* WSQPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101609B920713FE70050B851 /* WSQPageViewController.swift */; };
 		101DBC6C1FE68AA500B05248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101DBC6B1FE68AA500B05248 /* AppDelegate.swift */; };
 		101DBC711FE68AA500B05248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101DBC6F1FE68AA500B05248 /* Main.storyboard */; };
 		101DBC731FE68AA500B05248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 101DBC721FE68AA500B05248 /* Assets.xcassets */; };
@@ -21,12 +23,18 @@
 		101DBCB91FE69FDB00B05248 /* cz_UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101DBCB81FE69FDB00B05248 /* cz_UIColor.swift */; };
 		101DBCBB1FE6BB7F00B05248 /* WSQProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101DBCBA1FE6BB7F00B05248 /* WSQProfileViewController.swift */; };
 		101DBCBE1FE6BF0400B05248 /* Bundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101DBCBD1FE6BF0400B05248 /* Bundle+Extensions.swift */; };
+		102A0CB62077D93300B4E41A /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102A0CB52077D93300B4E41A /* UILabel+Extension.swift */; };
+		10466694207224F200ED07C9 /* WSQUnderLineTextFIeld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10466693207224F200ED07C9 /* WSQUnderLineTextFIeld.swift */; };
+		104666962072271C00ED07C9 /* WSQLoginCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104666952072271C00ED07C9 /* WSQLoginCollectionViewCell.swift */; };
 		10C90F591FE8045200C1DD51 /* WSQBaseTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C90F581FE8045200C1DD51 /* WSQBaseTabBar.swift */; };
+		10DB59702075510C00F9ECC3 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DB596F2075510C00F9ECC3 /* UIButton+Extensions.swift */; };
 		10FA54271FE94323001CC5F6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FA54261FE94323001CC5F6 /* Constant.swift */; };
 		2715964174DA711F51DBF21B /* Pods_WSQMall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5F943962CD880414FD244B /* Pods_WSQMall.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		101609B720710C820050B851 /* MallObjManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallObjManager.swift; sourceTree = "<group>"; };
+		101609B920713FE70050B851 /* WSQPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSQPageViewController.swift; sourceTree = "<group>"; };
 		101DBC681FE68AA500B05248 /* WSQMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSQMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		101DBC6B1FE68AA500B05248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		101DBC701FE68AA500B05248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,7 +52,11 @@
 		101DBCB81FE69FDB00B05248 /* cz_UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cz_UIColor.swift; sourceTree = "<group>"; };
 		101DBCBA1FE6BB7F00B05248 /* WSQProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSQProfileViewController.swift; sourceTree = "<group>"; };
 		101DBCBD1FE6BF0400B05248 /* Bundle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extensions.swift"; sourceTree = "<group>"; };
+		102A0CB52077D93300B4E41A /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		10466693207224F200ED07C9 /* WSQUnderLineTextFIeld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSQUnderLineTextFIeld.swift; sourceTree = "<group>"; };
+		104666952072271C00ED07C9 /* WSQLoginCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSQLoginCollectionViewCell.swift; sourceTree = "<group>"; };
 		10C90F581FE8045200C1DD51 /* WSQBaseTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSQBaseTabBar.swift; sourceTree = "<group>"; };
+		10DB596F2075510C00F9ECC3 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
 		10FA54261FE94323001CC5F6 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		83ADA868579B866D60483F7C /* Pods-WSQMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSQMall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSQMall/Pods-WSQMall.debug.xcconfig"; sourceTree = "<group>"; };
 		8F58C4D676588584D6559C73 /* Pods-WSQMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSQMall.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSQMall/Pods-WSQMall.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +75,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		101609B620710A630050B851 /* MallKit */ = {
+			isa = PBXGroup;
+			children = (
+				101609B720710C820050B851 /* MallObjManager.swift */,
+				10466693207224F200ED07C9 /* WSQUnderLineTextFIeld.swift */,
+			);
+			path = MallKit;
+			sourceTree = "<group>";
+		};
 		101DBC5F1FE68AA500B05248 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +144,7 @@
 		101DBC851FE68D7400B05248 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				101609B920713FE70050B851 /* WSQPageViewController.swift */,
 				101DBC881FE68F6400B05248 /* WSQTabbarController.swift */,
 				101DBC8A1FE6905100B05248 /* WSQBaseNavigationController.swift */,
 				101DBCAB1FE692F800B05248 /* WSQBaseSetViewController.swift */,
@@ -269,6 +291,7 @@
 		101DBC9F1FE6922200B05248 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				104666952072271C00ED07C9 /* WSQLoginCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -350,6 +373,8 @@
 			children = (
 				101DBCB81FE69FDB00B05248 /* cz_UIColor.swift */,
 				101DBCBD1FE6BF0400B05248 /* Bundle+Extensions.swift */,
+				10DB596F2075510C00F9ECC3 /* UIButton+Extensions.swift */,
+				102A0CB52077D93300B4E41A /* UILabel+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -357,6 +382,7 @@
 		101DBCBC1FE6BDDB00B05248 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				101609B620710A630050B851 /* MallKit */,
 				101DBCB71FE69FB700B05248 /* Extension */,
 			);
 			path = Tools;
@@ -426,7 +452,7 @@
 			attributes = {
 				CLASSPREFIX = WSQ;
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = John;
 				TargetAttributes = {
 					101DBC671FE68AA500B05248 = {
@@ -493,10 +519,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-WSQMall/Pods-WSQMall-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CDDPagerController/CDDPagerController.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CDDPagerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -525,19 +555,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10DB59702075510C00F9ECC3 /* UIButton+Extensions.swift in Sources */,
+				10466694207224F200ED07C9 /* WSQUnderLineTextFIeld.swift in Sources */,
 				101DBCB11FE698FC00B05248 /* WSQMediaListViewController.swift in Sources */,
 				101DBCAC1FE692F800B05248 /* WSQBaseSetViewController.swift in Sources */,
 				101DBCBE1FE6BF0400B05248 /* Bundle+Extensions.swift in Sources */,
 				101DBC6C1FE68AA500B05248 /* AppDelegate.swift in Sources */,
+				101609BA20713FE70050B851 /* WSQPageViewController.swift in Sources */,
 				10C90F591FE8045200C1DD51 /* WSQBaseTabBar.swift in Sources */,
+				102A0CB62077D93300B4E41A /* UILabel+Extension.swift in Sources */,
 				101DBCAE1FE6933D00B05248 /* WSQBeautyShopViewController.swift in Sources */,
 				101DBCBB1FE6BB7F00B05248 /* WSQProfileViewController.swift in Sources */,
 				101DBCAA1FE6928100B05248 /* WSQLoginTableViewController.swift in Sources */,
 				101DBC8B1FE6905100B05248 /* WSQBaseNavigationController.swift in Sources */,
 				10FA54271FE94323001CC5F6 /* Constant.swift in Sources */,
 				101DBCB61FE69DD000B05248 /* WSQHandPickViewController.swift in Sources */,
+				104666962072271C00ED07C9 /* WSQLoginCollectionViewCell.swift in Sources */,
 				101DBC891FE68F6400B05248 /* WSQTabbarController.swift in Sources */,
 				101DBCB91FE69FDB00B05248 /* cz_UIColor.swift in Sources */,
+				101609B820710C820050B851 /* MallObjManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +613,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -584,6 +621,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -634,6 +672,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -641,6 +680,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

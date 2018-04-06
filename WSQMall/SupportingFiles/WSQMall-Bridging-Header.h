@@ -9,5 +9,6 @@
 #ifndef WSQMall_Bridging_Header_h
 #define WSQMall_Bridging_Header_h
 
+#import <MBProgressHUD/MBProgressHUD.h>
 
 #endif /* WSQMall_Bridging_Header_h */
