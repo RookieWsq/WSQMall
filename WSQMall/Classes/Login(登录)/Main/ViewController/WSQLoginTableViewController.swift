@@ -16,6 +16,8 @@ class WSQLoginTableViewController: UITableViewController {
     var codeLocginTabBtn : UIButton!
     var hud : MBProgressHUD!
     var foreGroundLine : UIView!
+    // 包装视图
+    var loginView : UICollectionView!
     // 密码登录页
     var psdLoginView : UIView!
     // 验证码登录页
@@ -38,7 +40,6 @@ class WSQLoginTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupUI()
-        
     }
     // 账号密码登录
     @objc private func psdLoginBtnAction(sender:UIButton)
@@ -86,6 +87,25 @@ class WSQLoginTableViewController: UITableViewController {
         }
     }
     
+    // 标签按钮动作
+    @objc private func codeLoginBtnAction(sender : UIButton)
+    {
+        if sender == self.codeLocginTabBtn && sender.isSelected == false
+        {
+            self.psdLoginTabBtn.isSelected = false;
+            self.loginView.scrollToItem(at: IndexPath(item: 1, section: 0), at: .left, animated: true)
+            
+        }else if sender == self.psdLoginTabBtn && sender.isSelected == false
+        {
+            self.codeLocginTabBtn.isSelected = false
+            self.loginView.scrollToItem(at: IndexPath(item: 0, section: 0), at: .left, animated: true)
+        }
+        sender.isSelected = true
+        UIView.animate(withDuration: 0.25) {
+            self.foreGroundLine.center.x = sender.center.x
+        }
+    }
+    
     @objc private func endEditing()
     {
         self.view.endEditing(true)
@@ -101,11 +121,10 @@ class WSQLoginTableViewController: UITableViewController {
     
 }
 
-// MAKR: - setupUI
+// MARK: - setupUI
 extension WSQLoginTableViewController
 {
     // MARK: - Table view data source
-    
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 0
@@ -135,22 +154,6 @@ extension WSQLoginTableViewController
         // 创建密码登录页面
         setupPsdLoginView()
         setupCodeLoginView()
-    }
-    
-    @objc private func codeLoginBtnAction(sender : UIButton)
-    {
-        if sender == self.codeLocginTabBtn && sender.isSelected == false
-        {
-            self.psdLoginTabBtn.isSelected = false;
-            
-        }else if sender == self.psdLoginTabBtn && sender.isSelected == false
-        {
-            self.codeLocginTabBtn.isSelected = false
-        }
-        sender.isSelected = true
-        UIView.animate(withDuration: 0.25) {
-            self.foreGroundLine.center.x = sender.center.x
-        }
     }
     
     @objc func dismissVC()
@@ -243,6 +246,7 @@ extension WSQLoginTableViewController
         flowLayout.scrollDirection = .horizontal
         
         let loginCollectionView = UICollectionView(frame: CGRect.zero, collectionViewLayout: flowLayout)
+        self.loginView = loginCollectionView
         loginCollectionView.delegate = self
         loginCollectionView.contentSize = CGSize(width: view.bounds.width*2, height: collectionVIewHeight)
         loginCollectionView.register(WSQLoginCollectionViewCell.self,
@@ -646,7 +650,22 @@ extension WSQLoginTableViewController : UICollectionViewDataSource,UICollectionV
     override func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let offsetX = scrollView.contentOffset.x
         let button :UIButton! = (offsetX > psdLoginView.bounds.size.width/2) ? self.codeLocginTabBtn:self.psdLoginTabBtn
-        self.codeLoginBtnAction(sender: button)
+        self.loginViewDidScroll(sender: button)
+    }
+    @objc private func loginViewDidScroll(sender : UIButton)
+    {
+        if sender == self.codeLocginTabBtn && sender.isSelected == false
+        {
+            self.psdLoginTabBtn.isSelected = false;
+            
+        }else if sender == self.psdLoginTabBtn && sender.isSelected == false
+        {
+            self.codeLocginTabBtn.isSelected = false
+        }
+        sender.isSelected = true
+        UIView.animate(withDuration: 0.25) {
+            self.foreGroundLine.center.x = sender.center.x
+        }
     }
 }
 
